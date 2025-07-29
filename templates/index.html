@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <span class="logo-icon">&#128218;</span>
+            Research Assistant
+        </div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#privacy">Overview</a>
+            <button class="nav-btn" onclick="window.location.href='/app'">Get the app</button>
+        </div>
+    </div>
+    <div class="hero">
+        <h1>Understand <span class="gradient">Anything</span></h1>
+        <div class="hero-desc">
+            Your research and thinking partner, grounded in the information you trust, built with the latest AI models.<br>
+            <br>
+            <button class="cta-btn" onclick="window.location.href='/app'">Try Research Assistant</button>
+        </div>
+    </div>
+    <div class="features" id="features">
+        <div class="feature">
+            <div class="feature-icon">&#128100;</div>
+            <div class="feature-title">Upload your sources</div>
+            <div class="feature-desc">Upload PDFs, websites, YouTube videos, audio files, Google Docs, or Google Slides. Research Assistant will summarize them and make interesting connections between topics.</div>
+            <div class="feature-img">[Sample: Source Upload Screenshot]</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">&#9889;</div>
+            <div class="feature-title">Instant insights</div>
+            <div class="feature-desc">With all your sources in place, Research Assistant gets to work and becomes a personalized AI expert in the information that matters most to you.</div>
+            <div class="feature-img">[Sample: Insights Screenshot]</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">&#10033;</div>
+            <div class="feature-title">See the source, not just the answer</div>
+            <div class="feature-desc">Research Assistant always shows you the source of its answers, so you can trust and verify every insight.</div>
+            <div class="feature-img">[Sample: Source Reference Screenshot]</div>
+        </div>
+    </div>
+    <div class="privacy" id="privacy">
+        <h2>We value your privacy and do not use your personal data to train Research Assistant.</h2>
+        <div class="privacy-desc">
+            Research Assistant does not use your personal data, including your source uploads, queries, and the responses from the model for training.
+        </div>
+    </div>
+</body>
+</html>
